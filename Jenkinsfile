@@ -19,10 +19,5 @@ pipeline {
                 sh './test.sh'
             }
         }
-        stage('Deliver') { 
-            steps {
-                sh './start.sh' 
-            }
-        }
     }
 }
